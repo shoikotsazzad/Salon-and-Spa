@@ -40,7 +40,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-6 md:px-10 pt-16 pb-8 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
 
         {/* Col 1 — brand */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col items-center text-center gap-5 md:items-start md:text-left">
           <Link href="/" className="font-cormorant text-3xl italic text-rose-gold font-semibold">
             Lumière
           </Link>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         {/* Col 2 — quick links */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col items-center text-center gap-4 md:items-start md:text-left">
           <p className="font-italiana text-xs tracking-[0.2em] uppercase text-blush mb-2">
             Quick Links
           </p>
@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
 
         {/* Col 3 — contact */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col items-center text-center gap-4 md:items-start md:text-left">
           <p className="font-italiana text-xs tracking-[0.2em] uppercase text-blush mb-2">
             Find Us
           </p>
